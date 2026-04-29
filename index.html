@@ -3,10 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JC in DC</title>
+  <title>JCinDC | Coffee Expert & Barista Trainer</title>
+  <meta name="description" content="JCinDC is the personal brand of JC, a coffee expert, barista trainer, and competition barista serving the DMV and Washington, DC area." />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <h1>JC in DC</h1>
-  <p>Coffee expert, barista trainer, and recognized competition barista.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/jcindc/" class="brand" aria-label="JCinDC Home">
+        <img src="./logo_jcindc.png" alt="JCinDC logo" class="brand-logo" />
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Training</a></li>
+          <li><a href="#competition">Competition</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <p class="eyebrow">JCinDC</p>
+          <h1 id="hero-title">Coffee knowledge, competition precision, and practical barista training.</h1>
+          <p class="hero-text">
+            Based in Washington, DC, JC helps coffee teams build better skills, cleaner workflows, and stronger customer experiences.
+          </p>
+          <a class="button" href="#contact">Work with JC</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About JC</h2>
+        <p>
+          JC is a coffee expert and trainer known for blending high-level craft with approachable coaching. From dial-ins and milk texture to service flow and consistency, JC focuses on methods teams can apply right away.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Training &amp; Consulting</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Barista Skill Building</h3>
+            <p>Hands-on training in espresso extraction, milk steaming, and drink quality standards for new and experienced baristas.</p>
+          </article>
+          <article class="card">
+            <h3>Cafe Workflow Support</h3>
+            <p>Practical systems for speed, consistency, and team confidence during high-volume service.</p>
+          </article>
+          <article class="card">
+            <h3>Menu &amp; Quality Coaching</h3>
+            <p>Guidance on beverage standards, tasting calibration, and routines that keep quality steady across shifts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competition" class="section">
+      <div class="container narrow">
+        <h2>Competition Experience</h2>
+        <p>
+          As a recognized competition barista, JC brings structure, focus, and stage-tested discipline to every training session. That experience translates into better prep habits, stronger technical execution, and clearer communication behind the bar.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>
+          Looking for barista training or coffee consulting in the DMV? Reach out to start a conversation.
+        </p>
+        <a class="button" href="mailto:hello@jcindc.com">hello@jcindc.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> JCinDC. Washington, DC.</p>
+    </div>
+  </footer>
 </body>
 </html>
