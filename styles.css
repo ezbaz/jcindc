@@ -141,8 +141,23 @@ p { margin: 0 0 1.25rem; color: var(--muted); max-width: 66ch; }
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1.6rem;
+  padding: 0;
   box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.card-image-left { object-position: 28% center; }
+.card-image-center { object-position: center; }
+.card-image-right { object-position: 72% center; }
+
+.card-body {
+  padding: 1.6rem;
 }
 
 .contact { text-align: center; }
